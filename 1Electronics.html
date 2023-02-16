@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTS</title>
+    <link rel="icon"
+    type="image/jpg"
+    href="Screenshot (49).png">
+<style>
+.w1{
+  background: url(bag.jpeg);
+   padding: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:8px;
+    box-shadow: 3px 3px 3px #000;
+}
+
+#b1{
+            
+            width: 200px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 55px;
+            font-size: 18px;
+            border: #000;
+            border-radius: 15px;
+            background-color: white;
+                      
+                }
+           #b2{
+           width: 70px;
+           height:30px;
+           font-size: 18px;
+           border: #000;
+           border-radius: 15px;
+               }
+/* first nav bar*/
+ 
+ul {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  box-shadow: 3px 3px 3px #000;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: cursive;
+  
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+.flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    
+    .div-child {
+      background-color:white;
+      width: 290px;
+      height:270px;
+      
+      margin-bottom: 40px;
+      transition:0.4s;
+      box-shadow: 3px 3px 3px #000;
+    }
+
+    .div-child:hover{
+      transform: scale(1.1);
+      background: whitesmoke;
+      box-shadow: 2px 2px 2px#000;
+      z-index: 2;
+       color: #fff;
+       background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+       background-size:400% 400%;
+       position: relative;
+       animation: change 4s ease-in-out infinite;
+        }
+        @keyframes change{
+            0%{
+                background-position: 0 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0 50%;
+            }
+          }
+/*body{
+       width: 100%;
+       height: 100vh;
+       color: #fff;
+       background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+       background-size:400% 400%;
+       position: relative;
+       animation: change 10s ease-in-out infinite;      
+}*/
+body{
+  background-image: url(ts1.jpg);
+  background-attachment: fixed;
+}
+    .c1{
+      position: fixed;
+    }
+    select {
+  width: 10%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin-left: 9px;
+}
+a{
+  text-decoration:none;
+}
+.g1{
+     background-color: gray;
+   } 
+    
+
+    </style>
+</head>
+<body link="black" vlink="black" alink="black">
+
+        
+   <section> 
+    <div class="w1" >
+        <center><h1 style="font-family: cursive; font-size: 50px; color: #000;"> ONLINE THRIFT STORE </h1></center>
+        </div>               
+    </div>
+    
+    <div>
+        <ul>
+          <li class="g6"><a class="active" href="0home.html">Home</a></li>
+            <li class="g1"><a class="active" href="1Electronics.html">Electronics</a></li>
+            <li><a href="2Clothes.html">Clothes</a></li>
+            <li><a href="3Furniture.html">Furniture</a></li>
+            <li><a href="4Automobiles.html">Automobiles</a></li>
+            <li><a href="5Books.html">Books</a></li>
+
+
+            <li><nav class="navbar navbar-light bg-light">
+              <div class="container-fluid">
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search" id="b1">
+                  <button class="btn btn-outline-success" type="submit" id="b2">Search</button>
+                </form>
+              </div>
+            </nav></li>
+
+            <li style="float: right;"><a href="8signup.html">Sign-Up</a></li>
+            <li style="float: right;"><a href="6sell.html">+Sell</a></li>
+        </ul>
+        
+    </div>
+    
+       
+
+    <div class="flex-container">
+
+
+
+        <a href="applex.html"><div class="div-child">
+           <center style="background-color: lightgrey;"><img src="iphone.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+            <h1 style="margin-left: 20px; font-size: 30px;">&#8377 40,999</h1>
+           <p style="margin-left: 20px; font-family: cursive;"> Iphone X in excellent quality... </p>
+
+        </div></a>
+
+
+        <a href="Lgtv.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="lg.png" alt="" height="150px" width="230px"    style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px; font-size: 30px;">&#8377 10,990</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+          LG 80 cm (32 inch) HD Rea..... </p>
+                  
+        </div></a>
+
+        
+        <a href="camera.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="dslr.jfif" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 70,000</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            Canon EOS 1300D..... </p>
+        </div></a>
+
+        
+        <a href="ac.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="Air Conditioner.png" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 40,999</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            SAMSUNG 1.5 Ton 5 Star Spl... </p>
+        </div></a>
+
+
+
+
+        <a href="fridge.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="fridge.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 50,000</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            LG 679 L Frost Free Side by Si... </p>
+           
+        </div></a>
+
+
+        
+        <a href="graphiccard.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="gc.png" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 39,900</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            Nvidia Quadro FX3800.... </p>
+           
+        </div></a>
+        
+
+        <a href="hplaptop.html"> <div class="div-child">
+          <center style="background-color: lightgrey;"><img src="hp.jfif" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 49,999</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            HP EliteBook x360 1030 G2.... </p>
+           
+        </div></a>
+
+       <a href="games.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="ps4.jfif" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 20,000</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            Sony PS4 1TB Hard Disk.... </p>
+          </div></a>
+
+        <a href="washingmachine.html"> <div class="div-child">
+          <center style="background-color: lightgrey;"><img src="washingmachine.jfif" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 15,000</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            BOSCH 6 kg Fully Automa... </p>
+        </div></a>
+
+
+        <a href="gamingcomputer.html"><div class="div-child">
+          <center style="background-color: lightgrey;" ><img src="gamingcompter.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+           <h1 style="margin-left: 20px; font-size: 30px;">&#8377 45,000</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> Hp gaming pc in good condit... </p>
+
+       </div></a>
+
+       <a href="mi.html"><div class="div-child">
+        <center style="background-color: lightgrey;"><img src="mi.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+        <h1 style="margin-left: 20px;font-size: 30px;">&#8377 20,000</h1>
+        <p style="margin-left: 20px; font-family: cursive;"> 
+          Mi 11x 5G ..... </p> 
+              
+      </div></a>
+
+      <a href="bose.html"><div class="div-child">
+        <center style="background-color: lightgrey;"><img src="bose.jpg" alt="" height="150px" width="230px"    style="margin-top: 10px;"></center>
+        <h1 style="margin-left: 20px; font-size: 30px;">&#8377 3,000</h1>
+        <p style="margin-left: 20px; font-family: cursive;"> 
+        Bose Earphones excellent quali.... </p>
+                
+      </div></a>
+
+      
+      </div>
+    
+</body>
+</html>

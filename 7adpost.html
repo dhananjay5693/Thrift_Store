@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="upimg.css">
+    <style>
+.a1{
+    width: 60%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background:rgba(0,47,52,.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-left: 270px;
+    
+
+}
+h3{
+    font-family: sans-serif;
+}
+
+        body{
+            background-image: url(a3.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+        }
+
+        input[type=text]{
+            width: 50%;
+            padding: 9px;
+            font-size: 17px;
+        }
+        input[type=tel]{
+            width: 50%;
+            padding: 9px;
+            font-size: 17px;
+        }
+        input[type=email]{
+            width: 50%;
+            padding: 9px;
+            font-size: 17px;
+        }
+        .btnn{
+    width: 140px;
+    height: 50px;
+    background: black;
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    margin-top: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btnn:hover{
+    background:darkgrey;
+    color:black;
+}
+input{
+    background-color:whitesmoke;
+}
+textarea{
+    background-color: whitesmoke;
+}
+
+    </style>
+</head>
+<body vlink="black" alink="#000">
+
+    <script>
+        function showPreview(event){
+            if(event.target.files.length > 0){
+              var src = URL.createObjectURL(event.target.files[0]);
+              var preview = document.getElementById("file-ip-1-preview");
+              preview.src = src;
+              preview.style.display = "block";
+            }
+          }
+
+          
+        function checker()
+        {
+         var result = confirm("Are you sure to Post this Ad?");
+         if (result == false){
+             event.preventDefault();
+         }
+        }
+     
+       </script>
+
+   <center><h1 style="font-family: sans-serif; margin-top: 60px;">POST YOUR AD</h1></center>
+    <div class="a1" >
+         <div style="margin-left: 15px;">
+             <h3>SELECTED CATEGORY</h3>
+             
+             <p>Electronics / Mobiles &nbsp; <strong><a href="sell.html">Change</a></strong></p>
+         </div>
+         <hr>
+         <div style="margin-left: 15px;">
+             <h3>INCLUDE SOME DETAILS</h3>
+             <form style=" font-size: 14px;">
+                 Brand* <br>
+                 <input type="text" name="" id="" ><br>
+                 <br>
+                 <br>
+                 Ad title* <br>
+                 <input type="text" name="" id=""> <br>
+                 <p style="font-size: 12px;">Mention the key features of your item (e.g. brand, model, age, type) </p>
+                 <br>
+                 <br>
+                 Description* <br>
+                 <textarea name="" id="" cols="54" rows="6"></textarea>
+                 <p style="font-size: 12px;">Include condition, features and reason for selling</p>
+             </form>
+
+         </div>
+         <br>
+         <hr>
+         
+       <div style="margin-left: 15px;">
+             <h3>SET A PRICE</h3>
+             <Form style=" font-size: 14px;">
+                 Price* <br>
+                 <input type="tel" name="" id="" placeholder="&#8377  Amount">
+             </Form>
+             <br>
+             <br>
+         </div>
+
+         <hr>
+
+         
+
+         <div  style="margin-left: 15px;">
+             <h3>UPLOAD SOME PHOTOS</h3>
+
+
+            <div class="center">
+                <div class="form-input">
+                  <label for="file-ip-1">Upload Image</label>
+                  <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+                  <div class="preview">
+                    <img id="file-ip-1-preview">
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="center">
+                <div class="form-input">
+                  <label for="file-ip-1">Upload Image</label>
+                  <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+                  <div class="preview">
+                    <img id="file-ip-1-preview">
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="center">
+                <div class="form-input">
+                  <label for="file-ip-1">Upload Image</label>
+                  <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+                  <div class="preview">
+                    <img id="file-ip-1-preview">
+                  </div>
+                </div>
+              </div>
+
+         </div>
+         <br>
+         <hr>
+
+         <div  style="margin-left: 15px;">
+            <h3>CONFIRM YOUR LOCATION</h3>
+            
+            <form style=" font-size: 14px;">
+                State* <br>
+                <input type="text" name="" id="">
+            </form>
+            <br>
+            <br>
+
+         </div>
+         <hr>
+
+         <div style="margin-left: 15px;">
+            <h3>REVIEW YOUR DETAILS</h3>
+
+            <form style=" font-size: 14px;">
+                Name* <br>
+                <input type="text" name="" id=""> <br>
+                <br>
+                <br>
+
+                E-mail* <br>
+                <input type="email" name="" id=""> <br>
+                <p  style="font-size: 12px;">example@example.com </p>
+                
+                
+
+                Number* <br>
+                <input type="tel" name="" id="">
+                <br>
+
+
+
+
+            </form>
+         </div>
+         <br>
+         <br>
+         <hr>
+
+         <div>
+             
+             <a onclick="checker()" href="#"><center><div class="btnn">
+                POST
+            </div></center></a>
+         </div>
+         <br>
+    </div>
+    <br>
+    <br>
+</body>
+</html>

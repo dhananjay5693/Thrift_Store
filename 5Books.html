@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTS</title>
+    <link rel="icon"
+    type="image/jpg"
+    href="Screenshot (49).png">
+
+<style>
+.w1{
+  background: url(bag.jpeg);
+   padding: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom:8px;
+    box-shadow: 3px 3px 3px #000;
+    
+}
+
+#b1{
+            
+            width: 200px;
+            height: 35px;
+            margin-top: 10px;
+            margin-left: 55px;
+            font-size: 18px;
+            border: #000;
+            border-radius: 15px;
+            background-color: white;
+                      
+                }
+           #b2{
+           width: 70px;
+           height:30px;
+           font-size: 18px;
+           border: #000;
+           border-radius: 15px;
+               }
+
+/* first nav bar*/
+ 
+ul {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  box-shadow: 3px 3px 3px #000;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: cursive;
+  
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+.flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-around;
+      margin-left: 30px;
+      margin-right: 30px;
+      
+      
+    }
+    
+    .div-child {
+      background-color:white;
+      width: 290px;
+      height:270px;
+      
+      margin-bottom: 40px;
+      transition:0.4s;
+      box-shadow: 3px 3px 3px #000;
+    }
+
+    .div-child:hover{
+      transform: scale(1.1);
+      background: whitesmoke;
+      box-shadow: 2px 2px 2px#000;
+      z-index: 2;
+       color: #fff;
+       background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+       background-size:400% 400%;
+       position: relative;
+       animation: change 4s ease-in-out infinite;
+        }
+        @keyframes change{
+            0%{
+                background-position: 0 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+            100%{
+                background-position: 0 50%;
+            }
+          }
+/*body{
+       width: 100%;
+       height: 100vh;
+       color: #fff;
+       background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+       background-size:400% 400%;
+       position: relative;
+       animation: change 10s ease-in-out infinite;      
+}*/
+body{
+  background-image: url(ts1.jpg);
+  background-attachment: fixed;
+}
+    .c1{
+      position: fixed;
+    }
+    select {
+  width: 10%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  margin-left: 9px;
+}
+a{
+  text-decoration:none;
+}
+   .g5{
+     background-color: gray;
+   } 
+
+    </style>
+</head>
+<body link="black" vlink="black" alink="black">
+
+        
+   <section> 
+    <div class="w1" >
+        <center><h1 style="font-family: cursive; font-size: 50px; color: #000;"> ONLINE THRIFT STORE </h1></center>
+        </div>               
+    </div>
+    
+    <div>
+        <ul>
+          <li><a class="active" href="0home.html">Home</a></li>
+            <li><a class="active" href="1Electronics.html">Electronics</a></li>
+            <li><a href="2Clothes.html">Clothes</a></li>
+            <li><a href="3Furniture.html">Furniture</a></li>
+            <li><a href="4Automobiles.html">Automobiles</a></li>
+            <li class="g5"><a href="5Books.html">Books</a></li>
+
+
+            <li><nav class="navbar navbar-light bg-light">
+              <div class="container-fluid">
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search Here" aria-label="Search" id="b1">
+                  <button class="btn btn-outline-success" type="submit" id="b2">Search</button>
+                </form>
+              </div>
+            </nav></li>
+
+            <li style="float: right;"><a href="8signup.html">Sign-Up</a></li>
+            <li style="float: right;"><a href="6sell.html">+Sell</a></li>
+        </ul>
+        
+    </div>
+    
+       
+
+    <div class="flex-container">
+
+
+
+        <a href="book1.html"><div class="div-child">
+           <center style="background-color: lightgrey;"><img src="https://apollo-singapore.akamaized.net/v1/files/35a9ma4pipst-IN/image;s=780x0;q=60" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+            <h1 style="margin-left: 20px; font-size: 30px;">&#8377 2,400</h1>
+           <p style="margin-left: 20px; font-family: cursive;"> MECHANICAL ENGINEERING.. </p>
+
+        </div></a>
+
+
+        <a href="book2.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="littlewomen.jpg" alt="" height="150px" width="230px"    style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px; font-size: 30px;">&#8377 3,999</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            LITTLE WOMEN </p>
+                  
+        </div></a>
+
+        
+        <a href="book3.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="fios.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 286</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            THE FAULT IN OUR STARS </p>
+        </div></a>
+
+        
+        <a href="book4.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="https://images-na.ssl-images-amazon.com/images/I/81LKAKxCe+L.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 299</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            THE POWER OF YOUR SUBCON... </p>
+        </div></a>
+
+
+
+
+        <a href="book5.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="https://images-na.ssl-images-amazon.com/images/I/81bsw6fnUiL.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 356</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            Rich Dad Poor Dad </p>
+           
+        </div></a>
+
+
+        
+        <a href="book6.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="https://images-na.ssl-images-amazon.com/images/I/81tSFxicufL.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 152</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            400 DAYS </p>
+           
+        </div></a>
+        
+
+        <a href="book7.html"> <div class="div-child">
+          <center style="background-color: lightgrey;"><img src="https://cdn.thisiswhyimbroke.com/images/brief-answers-to-big-questions-stephen-hawking-640x533.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 550</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            BRIEF ANSWERS TO THE BIG... </p>
+           
+        </div></a>
+
+       <a href="book8.html"><div class="div-child">
+          <center style="background-color: lightgrey;"><img src="https://images-na.ssl-images-amazon.com/images/I/81DBK93b6jL.jpg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 500</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            A Brief History of Time </p>
+          </div></a>
+
+        <a href="washingmachine.html"> <div class="div-child">
+          <center style="background-color: lightgrey;"><img src="book9.jpeg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+          <h1 style="margin-left: 20px;font-size: 30px;">&#8377 167</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> 
+            1000 years of joy & sorrow.. </p>
+        </div></a>
+
+
+        <a href="applex.html"><div class="div-child">
+          <center style="background-color: lightgrey;" ><img src="book10.jpeg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+           <h1 style="margin-left: 20px; font-size: 30px;">&#8377 230</h1>
+          <p style="margin-left: 20px; font-family: cursive;"> Act of Depration... </p>
+
+       </div></a>
+
+       <a href="camera.html"><div class="div-child">
+        <center style="background-color: lightgrey;"><img src="book11.jpeg" alt="" height="150px" width="230px"  style="margin-top: 10px;"></center>
+        <h1 style="margin-left: 20px;font-size: 30px;">&#8377 450</h1>
+        <p style="margin-left: 20px; font-family: cursive;"> 
+          Aftershocks..... </p> 
+              
+      </div></a>
+
+      <a href="Lgtv.html"><div class="div-child">
+        <center style="background-color: lightgrey;"><img src="book12.jpeg" alt="" height="150px" width="230px"    style="margin-top: 10px;"></center>
+        <h1 style="margin-left: 20px; font-size: 30px;">&#8377 10,990</h1>
+        <p style="margin-left: 20px; font-family: cursive;"> 
+        Code Breaker..... </p>
+                
+      </div></a>
+
+      
+      </div>
+    
+</body>
+</html>
